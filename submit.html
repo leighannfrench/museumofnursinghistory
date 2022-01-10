@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Museum of Nursing History</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive-nav.css">
+    
+  </head>
+  <body>
+
+    <header>
+    
+      <h1>
+        
+        <img src="img/NursingLogo.svg" alt="logo" class="logo">
+  
+        Museum of Nursing History
+  
+      </h1>
+  
+      <nav id="main-navigation">
+  
+        <div class="nav-collapse">
+     
+          <ul class="main-menu">
+  
+            <li><a class="nav-button" href="index.html" class="nav__link">Home</a></li>
+            <!-- tickets, hours, Events -->
+  
+            <li><a class="nav-button" href="visit.html" class="nav__link">Visit Us</a></li>
+            <!-- event -- Kids, Students, Family  -->
+  
+            <li><a class="nav-button" href="Exhibits.html" class="nav__link">Exhibits</a></li>
+            <!-- caps, uniforms, Pins -->
+    
+            <li><a class="nav-button" href="fame.html" class="nav__link">Hall of Fame</a></li>
+            <!-- Carol, Gale -->
+    
+            <li><a class="nav-button" href="contact.html" class="nav__link">Contact Us</a></li>
+            <!-- Email, Reviews, Facebooks-->
+    
+            <li><a class="nav-button" href="support.html" class="nav__link">Support Us</a></li>
+            <!-- Shop, Membership -->
+  
+          </ul>
+  
+        </div>
+  
+      </nav>
+  
+      <p class="site-description">Where Nursing History Comes Alive!</p>
+  
+    </header>
+    
+    <main>
+      <h2>Thank You!</h2>
+      <section class="tickets">
+        <article class="vist_adult_admission">
+      <p>See you at the Museum of Nursing History</p>  
+    </article></main>
+  </section>
+    <footer>
+
+      <section class="contact">
+
+        <p>Address: 555 Add Address Street, 12345</p>
+
+        <p>Email: insertaddress@fakemail.com</p>
+
+        <p>Phone Number: 413-555-1707 </p>
+
+      </section>
+
+      <section class="copy">&copy; Triple Threat Design</section>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/responsive-nav.js"></script>
+    <script>
+
+      var nav = responsiveNav(".nav-collapse", { // Selector
+         animate: true, // Boolean: Use CSS3 transitions, true or false
+         transition: 284, // Integer: Speed of the transition, in milliseconds
+         label: "&#9776", // String: Label for the navigation toggle
+         insert: "before", // String: Insert the toggle before or after the navigation
+         customToggle: "", // Selector: Specify the ID of a custom toggle
+         closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+         openPos: "relative", // String: Position of the opened nav, relative or static
+         navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+         navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
+         jsClass: "js", // String: 'JS enabled' class which is added to  element
+         init: function () { }, // Function: Init callback
+         open: function () { }, // Function: Open callback
+         close: function () { } // Function: Close callback
+      });
+   </script>
+  </body>
+</html>

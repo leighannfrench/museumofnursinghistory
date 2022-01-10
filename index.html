@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Museum of Nursing History</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive-nav.css">
+
+</head>
+
+<body>
+  <header>
+
+    <div class="flex-container">
+      
+      <img src="img/NursingLogo.svg" alt="logo" class="logo">
+    
+      <h1> Museum of Nursing History </h1>
+
+    </div>
+
+    <nav id="main-navigation">
+
+      <div class="nav-collapse">
+   
+        <ul class="main-menu">
+          
+          <li><a class="nav-button" href="index.html" class="nav__link">Home</a></li>
+          <!-- tickets, hours, Events -->
+
+          <li><a class="nav-button" href="visit.html" class="nav__link">Visit Us</a></li>
+          <!-- event -- Kids, Students, Family  -->
+
+          <li><a class="nav-button" href="Exhibits.html" class="nav__link">Exhibits</a></li>
+          <!-- caps, uniforms, Pins -->
+  
+          <li><a class="nav-button" href="fame.html" class="nav__link">Hall of Fame</a></li>
+          <!-- Carol, Gale -->
+  
+          <li><a class="nav-button" href="contact.html" class="nav__link">Contact Us</a></li>
+          <!-- Email, Reviews, Facebooks-->
+  
+          <li><a class="nav-button" href="support.html" class="nav__link">Support Us</a></li>
+          <!-- Shop, Membership -->
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <p class="site-description">Where Nursing History Comes Alive!</p>
+
+  </header>
+
+  <main>
+    
+    <h2>Home</h2>
+
+    <div class="homepage_main-content">
+
+      <div class="homepage_article1">
+
+        <article class="article_alive">
+      <img src="img/nursecolorful.jpg">
+          <h3>Where Nursing History Comes Alive</h3>
+
+        </article>
+
+      </div>
+
+      <div class="homepage_article2">
+
+        <article class="article_night">
+          <img src="img/florence-nightingale.jpeg">
+          <h3>Learn About Florence Nightingale</h3>
+
+        </article>
+
+      </div>
+
+      <div class="homepage_article3">
+
+        <article class="article_hx">
+          <img src="img/nurses-in-uniform.jpg">
+          <h3>See Real, Historical Nursing Uniforms</h3>
+
+        </article>
+
+      </div>
+
+    </div>
+
+    <section class="container">
+
+      <article class="article_welcome">
+
+        <h3>H3</h3>
+<img src="img/museum.jpeg">
+        <p>Families are welcome to come and learn all there is to know about nursing</p>
+        
+      </article>
+
+      <article class="hours">
+
+        <h3>Hours</h3>
+        <ul>
+          <li>Monday	9AM–3PM</li>
+          <li>Tuesday	9AM–3PM</li>
+          <li>Wednesday	9AM–3PM</li>
+          <li>Thursday	9AM–3PM</li>
+          <li>Friday		9AM–3PM</li>
+          <li>Saturday	CLOSED</li>
+          <li>Sunday	CLOSED</li>
+          </ul>
+      </article>
+
+    </section>
+
+  
+    <article class="tickets">
+    
+      <h3>Tickets, Discounts</h3>
+      <p>Tours of the Museum of Nursing History may be self-guided or docent led.</p>
+      <p>Guided tours may be scheduled by appointment at 215.681.7367.</p>
+      <p>Self-guided tours are available at the Museum’s sign-in lectern in the St. Benilde lobby.</p>
+        <ul>
+          <li>Adult Admission- $17.99
+          <li>Child Admission- $5.99
+          <li>Students and Seniors age 62 & up - $3.00 per person. </li>
+          <li>Guided Tour - $5.00 per person</li>
+          <li>Self-Guided Tour- Free</li>
+          <li>Members - Free with pass</li>
+        </ul>
+      <h3>Payment is by check only</h3>
+        <p>Donations are always welcome.</p>
+        <a href="visit.html">
+        <img class="small" src="img/ticket.png"></a>
+        
+    </article>
+    
+  
+
+  </main>
+  
+  <footer>
+
+    <section class="contact">
+
+      <p>Address: 555 Add Address Street, 12345</p>
+
+      <p>Email: insertaddress@fakemail.com</p>
+
+      <p>Phone Number: 413-555-1707 </p>
+
+    </section>
+
+    <section class="copy">&copy; Triple Threat Design</section>
+    
+  </footer>
+
+
+  <script src="js/script.js"></script>
+  <script src="js/responsive-nav.js"></script>
+  <script>
+
+    var nav = responsiveNav(".nav-collapse", { // Selector
+      animate: true, // Boolean: Use CSS3 transitions, true or false
+      transition: 284, // Integer: Speed of the transition, in milliseconds
+      label: "&#9776", // String: Label for the navigation toggle
+      insert: "before", // String: Insert the toggle before or after the navigation
+      customToggle: "", // Selector: Specify the ID of a custom toggle
+      closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+      openPos: "relative", // String: Position of the opened nav, relative or static
+      navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+      navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
+      jsClass: "js", // String: 'JS enabled' class which is added to  element
+      init: function () { }, // Function: Init callback
+      open: function () { }, // Function: Open callback
+      close: function () { } // Function: Close callback
+    });
+  </script>
+</body>
+
+</html>
