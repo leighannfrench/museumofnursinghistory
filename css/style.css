@@ -211,6 +211,7 @@ p{
 }
 .hall_image{
 	max-width: 40%;
+	max-height: auto;
 }
 
 .container{
