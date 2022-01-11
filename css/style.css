@@ -360,13 +360,25 @@ img{
 		padding: 1rem;
 		grid-area: tex;
 	}
-	.article__main{
+	.article__main{homepage_article2
 		margin-bottom: 2rem;
+		position: relative;
+  text-align: center;
+		
 	}
 	.article__img{
 		width: 100%;
 		grid-area: im;
 	}
+
+
+/* overlay */
+.bottom-left{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
 	/* styling for wider screen */
 
 	@media screen and (min-width: 780px){
