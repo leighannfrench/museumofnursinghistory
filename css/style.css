@@ -378,6 +378,10 @@ img{
 		width: 100%;
 		grid-area: im;
 	}
+p{
+	line-heigth: 1.25;
+	padding-bottom: .25rem;
+}
 	/* styling for wider screen */
 
 	@media screen and (min-width: 780px){
