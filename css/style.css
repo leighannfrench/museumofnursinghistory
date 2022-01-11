@@ -146,7 +146,7 @@ nav ul{
 	display: block;  
 	text-align: center;
 	text-decoration: none;
-	
+	border: 1px black solid;
 	margin-bottom: .75rem;
 	background-color:rgba(46,101,131, .9);
 }
@@ -183,8 +183,21 @@ main{
 /* art */
 .article_alive{
 	background-color: rgb(255, 255, 255);
-	padding: 2rem;
-	margin: 1rem;
+	/* padding: 2rem;*/
+	margin: 1rem; 
+
+	position: relative;
+	text-align: center;
+}
+.bottom-left{
+	position: absolute;
+  bottom: 8px;
+  left: 16px;
+	font-weight: bold;
+	color:  #2b4e64;
+}
+.main_img{
+	width: 100%;
 }
 .article_contact{
 	background-color: rgb(255, 255, 255);
@@ -197,13 +210,14 @@ main{
 	margin: 1rem;
 }
 .article_night{
-	background-color: white;
-	padding: 2rem;
+
+	position: relative;
 	margin: 1rem;
 }
+
 .article_hx{
-	background-color: white;
-	padding: 2rem;
+
+	position: relative;
 	margin: 1rem;
 }
 p{
@@ -211,8 +225,6 @@ p{
 }
 .hall_image{
 	max-width: 40%;
-	max-height: 50%;
-	padding: 1rem;
 }
 
 .container{
@@ -349,36 +361,23 @@ img{
 		padding: 2rem;
 		margin: 1rem;
 		background-color: white;
-
+		position: relative;
 	}
 	.article__exhibits{
 		max-width: 600px;
 	}
 
 	.article__description{
-		border: black 1px solid;
 		padding: 1rem;
 		grid-area: tex;
 	}
-	.article__main{homepage_article2
+	.article__main{
 		margin-bottom: 2rem;
-		position: relative;
-  text-align: center;
-		
 	}
 	.article__img{
 		width: 100%;
 		grid-area: im;
 	}
-
-
-/* overlay */
-.bottom-left{
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
 	/* styling for wider screen */
 
 	@media screen and (min-width: 780px){
