@@ -189,7 +189,7 @@ main{
 /* art */
 .article_alive{
 	background-color: rgb(255, 255, 255);
-	/* padding: 2rem;*/
+	padding: 0;
 	margin: 1rem; 
 
 	position: relative;
