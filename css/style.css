@@ -203,7 +203,7 @@ main{
 	color:  #2b4e64;
 }
 .main_img{
-	width: 100%;
+	width: 100% !important;
 }
 .article_contact{
 	background-color: rgb(255, 255, 255);
