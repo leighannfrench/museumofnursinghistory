@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Museum of Nursing History</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive-nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Marcellus&family=Mea+Culpa&family=Playfair+Display+SC&family=Poiret+One&family=Rubik&family=Zen+Kurenaido&family=Zen+Maru+Gothic:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header>
+
+      <div class="flex-container">
+        
+        <img src="img/NursingLogo.svg" alt="logo" class="logo">
+      
+       
+  
+      </div>
+  
+      <nav id="main-navigation">
+  
+        <div class="nav-collapse">
+     
+          <ul class="main-menu">
+  
+            <li><a class="nav-button" href="index.html" class="nav__link">Home</a></li>
+            <!-- tickets, hours, Events -->
+  
+            <li><a class="nav-button" href="visit.html" class="nav__link">Visit Us</a></li>
+            <!-- event -- Kids, Students, Family  -->
+  
+            <li><a class="nav-button" href="Exhibits.html" class="nav__link">Exhibits</a></li>
+            <!-- caps, uniforms, Pins -->
+    
+            <li><a class="nav-button" href="fame.html" class="nav__link">Hall of Fame</a></li>
+            <!-- Carol, Gale -->
+    
+            <li><a class="nav-button" href="contact.html" class="nav__link">Contact Us</a></li>
+            <!-- Email, Reviews, Facebooks-->
+    
+            <li><a class="nav-button" href="support.html" class="nav__link">Support Us</a></li>
+            <!-- Shop, Membership -->
+  
+          </ul>
+  
+        </div>
+  
+      </nav>
+  
+      <p class="site-description">Where Nursing History Comes Alive!</p>
+  
+    </header>
+
+    <main>
+
+      <h2>Support Us</h2>
+
+      <article class="article_contact">
+
+        <h3>Make a donation</h3>
+        
+        <p> Link to paypal</p>
+      
+      </article>
+
+      <div class="contact-flex">
+
+        <article class="article_contact con_flex1">
+
+          <h3>Social Media</h3>
+          <a href="https://www.facebook.com/The-Museum-of-Nursing-History-Inc-291922367567431/?ref=page_internal" target="_blank">
+            <img src="img/facebook.png"> </a>
+          <h3>Suppot Us</h3> 
+             <a href="support.html"><img src="img/support.jpg" alt="suppot us"></a>
+    
+        </article>
+    
+        <article class="article_contact con_flex2">
+
+          <article class="article_19">
+            <h4 class="h4_20">Comments</h4>
+                <section class="section_21">
+                    <img class="image_22" src="img/placeholder.jpg" alt="avatar">
+                    <h5 class="h5_23">@Nightingale000</h5>
+                    <p class="paragraph_24">09:30PM Nov 24, 2021</p>
+                    <p class="paragraph_25">I love the museum. I feel like i really learned a lot while I visited.</p>
+                </section>
+
+                <section class="section_26">
+                    <img class="image_27" src="img/placeholder.jpg" alt="avatar">
+                    <h5 class="h5_28">@Number1RN</h5>
+                    <p class="paragraph_29">09:30PM Apr 16, 2021</p>
+                    <p class="paragraph_30">My favorite musuem to visit</p>
+            </section>
+        </article>
+        </article>
+          
+
+        </article>
+
+        <article class="article_contact con_flex3">
+
+          <h3>Want to Contact Us?</h3>
+          <a href="contact.html">
+            <img src="img/contactus.jpg"> </a>
+       
+
+        </article>
+
+      </div>
+
+    </main>
+
+    <footer>
+
+      <section class="contact">
+
+        <p>Address: 555 Add Address Street, 12345</p>
+
+        <p>Email: insertaddress@fakemail.com</p>
+
+        <p>Phone Number: 413-555-1707 </p>
+
+      </section>
+
+      <section class="copy">&copy; Triple Threat Design</section>
+      
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/responsive-nav.js"></script>
+    <script>
+
+      var nav = responsiveNav(".nav-collapse", { // Selector
+         animate: true, // Boolean: Use CSS3 transitions, true or false
+         transition: 284, // Integer: Speed of the transition, in milliseconds
+         label: "&#9776", // String: Label for the navigation toggle
+         insert: "before", // String: Insert the toggle before or after the navigation
+         customToggle: "", // Selector: Specify the ID of a custom toggle
+         closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+         openPos: "relative", // String: Position of the opened nav, relative or static
+         navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+         navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
+         jsClass: "js", // String: 'JS enabled' class which is added to  element
+         init: function () { }, // Function: Init callback
+         open: function () { }, // Function: Open callback
+         close: function () { } // Function: Close callback
+      });
+   </script>
+  </body>
+</html>
